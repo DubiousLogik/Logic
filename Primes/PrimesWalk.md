@@ -5,13 +5,16 @@ The Primes Walk is an exploration of patterns found in prime numbers, and variou
 ## Primes Walk Algorithm
 
 ```python
-The algorithm takes as input the positive integers, starting at 1.
-Initial plotter heading = 0 degrees (pointing right on the page)
-for each number N:
-  if N is composite, Move 1 unit horizontally along current heading
-  if N is prime, Move Up 1, turn 90 degrees left, then Move 1 on this heading
+# The algorithm takes as input the positive integers
+# Initial plotter heading = 0 degrees (pointing right on the page)
+limit = 10000
+n = 1
+while (n <= limit)
+  if n is composite, Move 1 unit horizontally along current heading
+  if n is prime, Move Up 1, turn 90 degrees left, then Move 1 on this heading
+  n = n + 1
 ```
-Plot each point.  
+Plot the lines and each point (i.e. the plotter pen stays down theh whole time).
 
 ### Notes
 I wrote the original in Java back in the 2000's when I was learning OO programming.
