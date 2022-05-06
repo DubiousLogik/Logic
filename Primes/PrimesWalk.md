@@ -8,13 +8,13 @@ The Primes Walk is an exploration of patterns found in prime numbers, and variou
 # The algorithm takes as input the positive integers
 # Initial plotter heading = 0 degrees (pointing right on the page)
 limit = 10000
-n = 1
+n = 2
 while (n <= limit)
   if n is composite, Move 1 unit horizontally along current heading
   if n is prime, Move Up 1, turn 90 degrees left, then Move 1 on this heading
   n = n + 1
 ```
-Plot the lines and each point (i.e. the plotter pen stays down theh whole time).
+Plot the lines and each point (i.e. the plotter pen stays down the whole time).
 
 ### Notes
 I wrote the original in Java back in the 2000's when I was learning OO programming.
