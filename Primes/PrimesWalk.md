@@ -17,5 +17,5 @@ while (n <= limit)
 Plot the lines and each point (i.e. the plotter pen stays down the whole time).
 
 ### Notes
-I wrote the original in Java back in the 2000's when I was learning OO programming.
-I no longer have that version, but I may rewrite this in Python one day.
+I wrote the original in Java back in the 2000's when I was learning OO programming.  The code outputted coordinates (x,y,z) to a CSV file, which I plotted with GnuPlot.
+I no longer have that version, but I may rewrite it in Python.
